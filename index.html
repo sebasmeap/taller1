@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casino Vice City</title>
+</head>
+<body>
+
+    <div style="text-align: center;">
+        <img src="https://vicecityclubs.com/image/logo.webp" style="width: 200px;" alt="Logo">
+    </div>
+
+    <h1 style="text-align: center;">Casino Vice City</h1>
+    <hr>
+
+    <h3 style="text-align: center; background-color: gold; color: black;">
+        Aquí puedes hacer tu registro
+    </h3>
+
+    <form>
+        <fieldset>
+            <legend style="text-align: center;">Registro</legend>
+
+            <label for="nombres">Nombres</label>
+            <input type="text" id="nombres" required>
+
+            <label for="apellidos">Apellidos</label>
+            <input type="text" id="apellidos" required>
+            <br><br>
+
+            <label for="nacimiento">Fecha de nacimiento</label>
+            <input type="date" id="nacimiento" required>
+
+            <label for="tipo">Tipo de documento</label>
+            <select name="tipo" id="tipo" required>
+                <option value="">Seleccione una opción</option>
+                <option value="cc">Cédula de ciudadanía</option>
+                <option value="ce">Cédula de extranjería</option>
+                <option value="pasaporte">Pasaporte</option>
+            </select>
+            <br><br>
+
+            <button style="color: green;" type="submit">Continuar</button>
+            <button style="color: red;" type="reset">Limpiar</button>
+        </fieldset>
+    </form>
+
+    <section>
+        <h3>Tipos de juegos</h3>
+        <ul>
+            <li><a href="#">Ruleta</a></li>
+            <li><a href="#">Deportivas</a></li>
+            <li><a href="#">Blackjack</a></li>
+            <li><a href="#">Póker</a></li>
+            <li><a href="#">Tragamonedas</a></li>
+            <li><a href="#">Spaceman</a></li>
+        </ul>
+    </section>
+
+    <hr>
+
+    <section>
+        <h3 style="text-align: center;">Reglas generales del casino</h3>
+        <div>
+            <h3>Lista de términos y condiciones</h3>
+            <ol>
+                <li><strong>Aceptación de los términos:</strong>
+                    Al ingresar al casino, el usuario acepta cumplir con todas las normas y políticas establecidas.
+                </li>
+                <li><strong>Requisito de edad:</strong>
+                    Solo pueden ingresar y participar personas mayores de edad según la legislación vigente.
+                </li>
+                <li><strong>Registro e identificación:</strong>
+                    El casino podrá solicitar documento de identidad para verificar la información del usuario.
+                </li>
+                <li><strong>Normas de conducta:</strong>
+                    Está prohibido hacer trampas, alterar el orden, usar dispositivos no autorizados o faltar al respeto al personal.
+                </li>
+                <li><strong>Reglas de juego:</strong>
+                    Cada juego tiene reglas específicas que deben ser respetadas por todos los participantes.
+                </li>
+                <li><strong>Pagos y premios:</strong>
+                    Los premios serán entregados conforme a las reglas del juego y pueden estar sujetos a verificación.
+                </li>
+                <li><strong>Responsabilidad del jugador:</strong>
+                    Cada jugador es responsable de sus apuestas y decisiones dentro del casino.
+                </li>
+                <li><strong>Derecho de admisión:</strong>
+                    El casino se reserva el derecho de admisión y permanencia en sus instalaciones.
+                </li>
+            </ol>
+        </div>
+    </section>
+
+    <hr>
+
+    <section>
+        <form>
+            <h3><mark>Sugerencias</mark></h3>
+
+            <textarea style="color: blue;" rows="5" name="sugerencias" id="sugerencias" required></textarea>
+            <br>
+
+            <button style="color: green;" type="submit">Enviar</button>
+            <button style="color: red;" type="reset">Limpiar</button>
+        </form>
+    </section>
+
+</body>
+</html>
