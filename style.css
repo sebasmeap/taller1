@@ -1,0 +1,130 @@
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #111, #222);
+    color: white;
+}
+
+header {
+    background: linear-gradient(to right, #000, #1a1a1a);
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 3px solid gold;
+}
+
+header img {
+    width: 200px;
+}
+
+header h1 {
+    color: gold;
+    font-family: Georgia, serif;
+    margin: 10px 0;
+}
+
+h3 {
+    text-align: center;
+}
+
+h3:first-of-type {
+    background-color: gold;
+    color: black;
+    padding: 8px;
+}
+
+form {
+    background: #1c1c1c;
+    width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+}
+
+fieldset {
+    border: 2px solid gold;
+}
+
+legend {
+    color: gold;
+    font-weight: bold;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+button[type="submit"] {
+    background-color: green;
+    color: white;
+}
+
+button[type="reset"] {
+    background-color: red;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    margin: 8px 0;
+}
+
+nav a {
+    color: gold;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: white;
+}
+
+article {
+    background: #1c1c1c;
+    width: 70%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    background: black;
+    text-align: center;
+    padding: 15px;
+    border-top: 2px solid gold;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    form,
+    article {
+        width: 90%;
+    }
+}
